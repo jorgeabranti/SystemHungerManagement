@@ -1,0 +1,202 @@
+.points_table tbody {
+	height: 400px;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.points_table {
+  width: 100%; 
+  border-collapse: collapse;     
+}
+
+.points_table thead tr{
+	width: 100%;
+}
+
+ .points_table tr{
+ 	width: 100%;
+ }
+
+.points_table thead, .points_table tbody, .points_table tr, .points_table td, .points_table th{
+	display: inline-block;
+}
+
+.points_table thead{
+        width: 100%;
+	background: #0A5BC4;/*#DF4954;*/
+	color: #fff;
+}
+
+.points_table tbody td, .points_table thead > tr> th{
+	float: left;
+	border-bottom-width: 0;
+}
+
+.points_table>tbody>tr>td, .points_table>tbody>tr>th, .points_table>tfoot>tr>td, .points_table>tfoot>tr>th/*, .points_table>thead>tr>td, .points_table>thead>tr>th*/{
+	padding: 15px;
+	height: 60px;
+	text-align: left;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+#autotext {
+	overflow: auto;   
+}
+/*
+.odd {
+	background: #ffffff;
+	color: #000;
+}
+*/
+.even {
+	background: #efefef;
+	color: #000;
+}
+
+.points_table_scrollbar{
+	height: 312px;
+	overflow-y: scroll;
+}
+
+.points_table_scrollbar::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #444444;
+}
+
+.points_table_scrollbar::-webkit-scrollbar{
+	width: 10px;
+	min-width: 2px;
+	background-color: #F5F5F5;
+}
+
+.points_table_scrollbar::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #D62929;
+	background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+}
+.divbuttonrequest{
+    margin-top: 5%;
+    float : left;
+    height:auto;           
+}
+
+input {
+    background-color:transparent;
+    border: 0px solid;
+    height:30px;
+    width:260px;
+}
+input:focus {
+    outline:none;
+}
+
+input[type=checkbox] {
+    margin-left: 0px;
+}
+
+input[type=number] {
+    margin: auto;
+    width: 100%;
+}
+
+#editProductForm { 
+    display: none;
+    border: 2px solid #c1c1c1; 
+    padding: 2em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    border-radius: 5px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
+}
+#editProductForm>form>button {
+    margin-top: 5%;
+}
+
+#editProductForm>form>select {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    padding:0 10px;    
+}
+
+#rowStyleEdit>td {
+	padding: 15px;
+	height: 200px;
+	text-align: left;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+#rowStyleImage>td {
+	padding: 15px;
+	height: 200px;
+	text-align: left;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+
+#editTypeProductForm { 
+    display: none;
+    border: 2px solid #c1c1c1; 
+    padding: 2em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    border-radius: 5px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
+}
+#editTypeProductForm>form>button {
+    margin-top: 5%;
+}
+
+#editTypeProductForm>form>select {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    padding:0 10px;    
+}
+
+#editFlavorForm { 
+    display: none;
+    border: 2px solid #c1c1c1; 
+    padding: 2em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    border-radius: 5px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
+}
+#editFlavorForm>form>button {
+    margin-top: 5%;
+}
+
+#editFlavorForm>form>select {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    padding:0 10px;    
+}
